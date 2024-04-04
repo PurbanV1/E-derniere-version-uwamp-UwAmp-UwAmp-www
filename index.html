@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion GSB</title>
+    <link rel="stylesheet" href="CSS_INDEX.css"> <!-- Lien vers le fichier CSS externe -->
+</head>
+<body>
+    <header>
+        <img src="GSB logo.png" alt="Logo GSB" id="logo-gsb"><H1 id="titre">Votre laboratoire GSB à votre service</H1>
+    </header>
+
+    <div id="login-form-container">
+        <form action="connexionBdPhp.php" method="post">
+            <div class="input-group">
+                <label for="username">IDENTIFIANT</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">MOT DE PASSE</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="ENTRER">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
